@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
+a:hover{
+    text-decoration: underline;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+input, select, textarea{
+    outline: none;
+    margin: 10px 0;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid#e5e5e5;
+}
+input[type=submit],[type=radio], [type=date]{
+    cursor: pointer;
+}
+input[type=submit]{
+    background-color: #fff;
+}
+textarea{
+    resize: none;
+}
